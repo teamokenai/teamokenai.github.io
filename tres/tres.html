@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tres...</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="images/logo.png" class="logo"></a>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../uno/uno.html">Uno</a></li>
+                <li><a href="../dos/dos.html">Dos</a></li>
+                <li><a href="#">Tres...</a></li>
+            </ul>
+        </header>
+     <ul class="sci">
+            <li><a href="#"><img src="images/uno.png" onclick="goYoutube()"></a></li>
+            <li><a href="#"><img src="images/dos.png" onclick="goCorazon()"></a></li>
+            <li><a href="#"><img src="images/tres.png" onclick="goPlaylist()"></a></li>
+    </ul>
+    <img src="images/question.png" alt="question" class="header-img"/>
+    <div class="container" id="container">
+        <button class="btn btn-yes">SIIII</button>
+        <button class="btn btn-no">no.</button>
+    </div>
+
+    <div class="center-content hide" id="newContent">
+        <img src="images/yupi.png" alt="yupi" class="yes-image" width="100">
+        <p>YEPIIIIII!! TE AMO MI POLOLINDA</p>
+      </div>
+
+    <script src="main.js"></script>
+
+    <script>
+        function goYoutube(){
+            window.location.href = 'https://www.youtube.com/watch?v=67oBykAKUuk&ab_channel=PrimeraStarrk';
+        }
+    </script>
+
+    <script>
+        function goCorazon(){
+            window.location.href = 'https://dantesakt1.github.io/';
+        }
+    </script>
+
+    <script>
+        function goPlaylist(){
+            window.location.href = 'https://open.spotify.com/playlist/1lP9IRboUHgqazj34eoQOJ?si=2aa27573cb67423f&pt=851878f98f45f32409cd5b40c0e9874f';
+        }
+    </script>
+
+</body>
+</html>
